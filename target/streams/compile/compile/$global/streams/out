@@ -1,0 +1,10 @@
+[0m[[0m[33mwarn[0m] [0m[0mD:\Musings\Play\warehouse-crud-2\app\views\products\product.scala.html:25:49: method value in class Field is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m				      @if(productForm("tags[" + i + "].id").value=="1"){ checked }[0m
+[0m[[0m[33mwarn[0m] [0m[0m				                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Musings\Play\warehouse-crud-2\app\views\products\product.scala.html:29:49: method value in class Field is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m				      @if(productForm("tags[" + i + "].id").value=="2"){ checked }[0m
+[0m[[0m[33mwarn[0m] [0m[0m				                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mD:\Musings\Play\warehouse-crud-2\app\views\products\product.scala.html:33:49: method value in class Field is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0m				      @if(productForm("tags[" + i + "].id").value=="3"){ checked }[0m
+[0m[[0m[33mwarn[0m] [0m[0m				                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m

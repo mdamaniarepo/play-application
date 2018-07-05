@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Musings\Play\warehouse-crud-2\conf\application.conf,D:\Musings\Play\warehouse-crud-2\target\scala-2.12\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Musings\Play\warehouse-crud-2\conf\evolutions,D:\Musings\Play\warehouse-crud-2\target\scala-2.12\classes\evolutions)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Musings\Play\warehouse-crud-2\conf\logback.xml,D:\Musings\Play\warehouse-crud-2\target\scala-2.12\classes\logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Musings\Play\warehouse-crud-2\conf\routes,D:\Musings\Play\warehouse-crud-2\target\scala-2.12\classes\routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Musings\Play\warehouse-crud-2\conf\evolutions\default,D:\Musings\Play\warehouse-crud-2\target\scala-2.12\classes\evolutions\default)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Musings\Play\warehouse-crud-2\conf\evolutions\default\1.sql,D:\Musings\Play\warehouse-crud-2\target\scala-2.12\classes\evolutions\default\1.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(D:\Musings\Play\warehouse-crud-2\conf\evolutions\default\2.sql,D:\Musings\Play\warehouse-crud-2\target\scala-2.12\classes\evolutions\default\2.sql)[0m

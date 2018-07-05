@@ -1,0 +1,35 @@
+# Routes
+
+# An example controller showing a sample home page
+GET      /                       controllers.HomeController.index
+
+GET      /products               controllers.ProductsController.list()
+
+GET      /product/:ean           controllers.ProductsController.details(ean: String)
+
+GET      /products/new           controllers.ProductsController.newProduct()
+
+DELETE   /product/:ean           controllers.ProductsController.delete(ean: String)
+
++noCSRF
+POST     /products               controllers.ProductsController.save()
+
+# Path Binding
+GET      /pb/product/:ean        controllers.ProductsController.productByPathBinding(ean: models.Product)
+
+GET      /qb/product             controllers.ProductsController.productByPathBinding(ean: models.Product)
+
+# Map static resources from the /public folder to the /assets URL path
+GET      /assets/*file           controllers.Assets.versioned(path="/public", file: Asset)
+
+# JSON routes
+
+GET      /v1/json/products       controllers.ProductsController.listProducts
+
+GET      /v1/json/product/:ean   controllers.ProductsController.retrieveProduct(ean: String)
+
+POST     /v1/json/product        controllers.ProductsController.createProduct()
+
+PUT      /v1/json/product        controllers.ProductsController.updateProduct()
+
+DELETE   /v1/json/product/:ean   controllers.ProductsController.deleteProduct(ean: String)

@@ -1,0 +1,31 @@
+@(products: List[models.Product]) 
+@main("Products catalogue") {
+<h2>All products</h2>
+
+@** If Block **@
+@if(products.isEmpty) {
+<h2>Count of products: 0 </h2>
+} else {
+<h2>Count of products - @products.size()</h2>}
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>EAN</th>
+			<th>Name</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		@for(product <- products) {
+		<tr>
+			<td><a href=" @routes.ProductsController.details(product.ean)">@product.ean </a></td>
+			<td><a href=" @routes.ProductsController.details(product.ean)">@product.name</a></td>
+			<td><a href=" @routes.ProductsController.details(product.ean)">@product.description</a></td>
+		</tr>
+		}
+		<a class="btn" href="@routes.ProductsController.newProduct()">Add new product</a>
+	</tbody>
+	
+</table>
+}
